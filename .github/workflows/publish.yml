@@ -37,7 +37,7 @@ jobs:
           repo_name="${GITHUB_REPOSITORY#*/}"
           base_path="/${repo_name}"
 
-          docc convert "collab-rismay-johnwhitecastle.docc" \
+          docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
             --hosting-base-path "${base_path}"
